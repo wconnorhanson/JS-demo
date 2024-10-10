@@ -1,0 +1,88 @@
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color: #fdfdfd;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.block {
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+    background-color: darkgoldenrod;
+    border-radius: 5px;
+}
+
+.block-div {
+    height: 100%;
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.button {
+    padding: 8px 14px;
+    text-transform: capitalize;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 3px;
+    width: 50%;
+}
+
+.counter-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    padding: 15px;
+    width: calc(100%/3);
+    height: 30vh;
+    border: 3px solid #663399;
+    border-radius: 5px;
+}
+
+.even {
+    color: blue;
+}
+
+.odd {
+    color: red;
+}
+
+#addButton {
+    background-color: blue;
+}
+
+#addButton:hover {
+    background-color: dodgerblue;
+}
+
+#subButton {
+    background-color: red;
+}
+
+#subButton:hover {
+    background-color: lightcoral;
+}
+
+#myName {
+    text-align: center;
+    font-size: 3rem;
+    color: #663399;
+}
